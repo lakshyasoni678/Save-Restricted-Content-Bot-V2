@@ -3,10 +3,10 @@
 
 from os import getenv
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
-MONGO_DB = getenv("MONGO_DB", "")
-LOG_GROUP = getenv("LOG_GROUP", "")
-CHANNEL_ID = int(getenv("CHANNEL_ID", ""))
+API_ID = int(getenv("API_ID", "29640188"))
+API_HASH = getenv("API_HASH", "e470abc84a3bc445997ee4ea5be87deb")
+BOT_TOKEN = getenv("BOT_TOKEN", "7466296444:AAFEldR0DXNBmRPBQrNki1zUJEiVbdjDRr8")
+OWNER_ID = list(map(int, getenv("OWNER_ID", "7504263874").split()))
+MONGO_DB = getenv("MONGO_DB", "mongodb+srv://syangshibo1:mongodbdatabase500@cluster0.vtkrte7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+LOG_GROUP = getenv("LOG_GROUP", "4563305914")
+CHANNEL_ID = int(getenv("CHANNEL_ID", "1002195073757"))
